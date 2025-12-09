@@ -1,0 +1,13 @@
+CREATE TABLE mortgage (
+MortgageID INT PRIMARY KEY,
+CustomerID INT
+PropertyID INT,
+LoanAmount DECIMAL(5,2),
+InterestRate DECIMAL(5,2),
+TermYear INT,
+StartDate DATE,
+)
+
+MortgageID     CustomerName      Address         Loan         Rate            Term          Date
+001            John Tran      621 Lester       400000          6%              30           2022
+002            John Tran     3415 Amanecer     310000          7%              30           2022
